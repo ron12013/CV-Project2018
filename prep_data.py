@@ -1,6 +1,7 @@
 import cPickle as pickle
 from keras.preprocessing import image
 from vgg16 import VGG16
+import resnet152 as rn
 import numpy as np 
 from keras.applications.imagenet_utils import preprocess_input	
 
@@ -14,8 +15,9 @@ def load_image(path):
     return np.asarray(x)
 
 def load_encoding_model():
-	model = VGG16(weights='imagenet', include_top=True, input_shape = (224, 224, 3))
-	return model
+    model = rn.resnet152_model('resnet152_weights_tf.h5')
+	#model = VGG16(weights='imagenet', include_top=True, input_shape = (224, 224, 3))
+    return model
 
 def get_encoding(model, img):
 	global counter

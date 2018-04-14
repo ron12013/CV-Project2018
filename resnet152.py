@@ -197,7 +197,7 @@ def resnet152_model(weights_path=None):
 
     x_fc = AveragePooling2D((7, 7), name='avg_pool')(x)
     x_fc = Flatten()(x_fc)
-    x_fc = Dense(1000, activation='softmax', name='fc1000')(x_fc)
+    x_fc = Dense(4096, activation='softmax', name='fc4096')(x_fc)
 
     model = Model(img_input, x_fc)
     

@@ -6,4 +6,6 @@ Models/
 encoded_images.p
 predicted_captions.txt
 *.h5
+*~
+#*
 

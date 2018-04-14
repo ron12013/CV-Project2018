@@ -4,11 +4,11 @@ import cv2
 import numpy as np
 import copy
 
-from keras.layers import Input, Dense, Conv2D, MaxPooling2D, AveragePooling2D, ZeroPadding2D, Flatten, Activation, add
+from keras.layers import Input, Dense, Convolution2D, MaxPooling2D, AveragePooling2D, ZeroPadding2D, Dropout, Flatten, merge, Reshape, Activation, Lambda, GlobalAveragePooling2D, Merge
 from keras.optimizers import SGD
 from keras.layers.normalization import BatchNormalization
 from keras.models import Model
-from keras import initializers
+from keras import initializations
 from keras.engine import Layer, InputSpec
 from keras import backend as K
 
@@ -37,19 +37,19 @@ class Scale(Layer):
             List of 2 Numpy arrays, with shapes:
             `[(input_shape,), (input_shape,)]`
         beta_init: name of initialization function for shift parameter
-            (see [initializers](../initializers.md)), or alternatively,
+            (see [initializations](../initializations.md)), or alternatively,
             Theano/TensorFlow function to use for weights initialization.
             This parameter is only relevant if you don't pass a `weights` argument.
         gamma_init: name of initialization function for scale parameter (see
-            [initializers](../initializers.md)), or alternatively,
+            [initializations](../initializations.md)), or alternatively,
             Theano/TensorFlow function to use for weights initialization.
             This parameter is only relevant if you don't pass a `weights` argument.
     '''
     def __init__(self, weights=None, axis=-1, momentum = 0.9, beta_init='zero', gamma_init='one', **kwargs):
         self.momentum = momentum
         self.axis = axis
-        self.beta_init = initializers.get(beta_init)
-        self.gamma_init = initializers.get(gamma_init)
+        self.beta_init = initializations.get(beta_init)
+        self.gamma_init = initializations.get(gamma_init)
         self.initial_weights = weights
         super(Scale, self).__init__(**kwargs)
 
@@ -57,8 +57,8 @@ class Scale(Layer):
         self.input_spec = [InputSpec(shape=input_shape)]
         shape = (int(input_shape[self.axis]),)
 
-        self.gamma = K.variable(self.gamma_init(shape), name='%s_gamma'%self.name)
-        self.beta = K.variable(self.beta_init(shape), name='%s_beta'%self.name)
+        self.gamma = self.gamma_init(shape, name='{}_gamma'.format(self.name))
+        self.beta = self.beta_init(shape, name='{}_beta'.format(self.name))
         self.trainable_weights = [self.gamma, self.beta]
 
         if self.initial_weights is not None:
@@ -93,22 +93,23 @@ def identity_block(input_tensor, kernel_size, filters, stage, block):
     bn_name_base = 'bn' + str(stage) + block + '_branch'
     scale_name_base = 'scale' + str(stage) + block + '_branch'
 
-    x = Conv2D(nb_filter1, (1, 1), name=conv_name_base + '2a', use_bias=False)(input_tensor)
+    x = Convolution2D(nb_filter1, 1, 1, name=conv_name_base + '2a', bias=False)(input_tensor)
     x = BatchNormalization(epsilon=eps, axis=bn_axis, name=bn_name_base + '2a')(x)
     x = Scale(axis=bn_axis, name=scale_name_base + '2a')(x)
     x = Activation('relu', name=conv_name_base + '2a_relu')(x)
 
     x = ZeroPadding2D((1, 1), name=conv_name_base + '2b_zeropadding')(x)
-    x = Conv2D(nb_filter2, (kernel_size, kernel_size), name=conv_name_base + '2b', use_bias=False)(x)
+    x = Convolution2D(nb_filter2, kernel_size, kernel_size,
+                      name=conv_name_base + '2b', bias=False)(x)
     x = BatchNormalization(epsilon=eps, axis=bn_axis, name=bn_name_base + '2b')(x)
     x = Scale(axis=bn_axis, name=scale_name_base + '2b')(x)
     x = Activation('relu', name=conv_name_base + '2b_relu')(x)
 
-    x = Conv2D(nb_filter3, (1, 1), name=conv_name_base + '2c', use_bias=False)(x)
+    x = Convolution2D(nb_filter3, 1, 1, name=conv_name_base + '2c', bias=False)(x)
     x = BatchNormalization(epsilon=eps, axis=bn_axis, name=bn_name_base + '2c')(x)
     x = Scale(axis=bn_axis, name=scale_name_base + '2c')(x)
 
-    x = add([x, input_tensor], name='res' + str(stage) + block)
+    x = merge([x, input_tensor], mode='sum', name='res' + str(stage) + block)
     x = Activation('relu', name='res' + str(stage) + block + '_relu')(x)
     return x
 
@@ -129,28 +130,29 @@ def conv_block(input_tensor, kernel_size, filters, stage, block, strides=(2, 2))
     bn_name_base = 'bn' + str(stage) + block + '_branch'
     scale_name_base = 'scale' + str(stage) + block + '_branch'
 
-    x = Conv2D(nb_filter1, (1, 1), strides=strides, name=conv_name_base + '2a', use_bias=False)(input_tensor)
+    x = Convolution2D(nb_filter1, 1, 1, subsample=strides,
+                      name=conv_name_base + '2a', bias=False)(input_tensor)
     x = BatchNormalization(epsilon=eps, axis=bn_axis, name=bn_name_base + '2a')(x)
     x = Scale(axis=bn_axis, name=scale_name_base + '2a')(x)
     x = Activation('relu', name=conv_name_base + '2a_relu')(x)
 
     x = ZeroPadding2D((1, 1), name=conv_name_base + '2b_zeropadding')(x)
-    x = Conv2D(nb_filter2, (kernel_size, kernel_size),
-                      name=conv_name_base + '2b', use_bias=False)(x)
+    x = Convolution2D(nb_filter2, kernel_size, kernel_size,
+                      name=conv_name_base + '2b', bias=False)(x)
     x = BatchNormalization(epsilon=eps, axis=bn_axis, name=bn_name_base + '2b')(x)
     x = Scale(axis=bn_axis, name=scale_name_base + '2b')(x)
     x = Activation('relu', name=conv_name_base + '2b_relu')(x)
 
-    x = Conv2D(nb_filter3, (1, 1), name=conv_name_base + '2c', use_bias=False)(x)
+    x = Convolution2D(nb_filter3, 1, 1, name=conv_name_base + '2c', bias=False)(x)
     x = BatchNormalization(epsilon=eps, axis=bn_axis, name=bn_name_base + '2c')(x)
     x = Scale(axis=bn_axis, name=scale_name_base + '2c')(x)
 
-    shortcut = Conv2D(nb_filter3, (1, 1), strides=strides,
-                             name=conv_name_base + '1', use_bias=False)(input_tensor)
+    shortcut = Convolution2D(nb_filter3, 1, 1, subsample=strides,
+                             name=conv_name_base + '1', bias=False)(input_tensor)
     shortcut = BatchNormalization(epsilon=eps, axis=bn_axis, name=bn_name_base + '1')(shortcut)
     shortcut = Scale(axis=bn_axis, name=scale_name_base + '1')(shortcut)
 
-    x = add([x, shortcut], name='res' + str(stage) + block)
+    x = merge([x, shortcut], mode='sum', name='res' + str(stage) + block)
     x = Activation('relu', name='res' + str(stage) + block + '_relu')(x)
     return x
 
@@ -166,14 +168,14 @@ def resnet152_model(weights_path=None):
     # Handle Dimension Ordering for different backends
     global bn_axis
     if K.image_dim_ordering() == 'tf':
-        bn_axis = 3
-        img_input = Input(shape=(224, 224, 3), name='data')
+      bn_axis = 3
+      img_input = Input(shape=(224, 224, 3), name='data')
     else:
-        bn_axis = 1
-        img_input = Input(shape=(3, 224, 224), name='data')
+      bn_axis = 1
+      img_input = Input(shape=(3, 224, 224), name='data')
             
     x = ZeroPadding2D((3, 3), name='conv1_zeropadding')(img_input)
-    x = Conv2D(64, (7, 7), strides=(2, 2), name='conv1', use_bias=False)(x)
+    x = Convolution2D(64, 7, 7, subsample=(2, 2), name='conv1', bias=False)(x)
     x = BatchNormalization(epsilon=eps, axis=bn_axis, name='bn_conv1')(x)
     x = Scale(axis=bn_axis, name='scale_conv1')(x)
     x = Activation('relu', name='conv1_relu')(x)
@@ -185,11 +187,11 @@ def resnet152_model(weights_path=None):
 
     x = conv_block(x, 3, [128, 128, 512], stage=3, block='a')
     for i in range(1,8):
-        x = identity_block(x, 3, [128, 128, 512], stage=3, block='b'+str(i))
+      x = identity_block(x, 3, [128, 128, 512], stage=3, block='b'+str(i))
 
     x = conv_block(x, 3, [256, 256, 1024], stage=4, block='a')
     for i in range(1,36):
-        x = identity_block(x, 3, [256, 256, 1024], stage=4, block='b'+str(i))
+      x = identity_block(x, 3, [256, 256, 1024], stage=4, block='b'+str(i))
 
     x = conv_block(x, 3, [512, 512, 2048], stage=5, block='a')
     x = identity_block(x, 3, [512, 512, 2048], stage=5, block='b')
@@ -197,43 +199,43 @@ def resnet152_model(weights_path=None):
 
     x_fc = AveragePooling2D((7, 7), name='avg_pool')(x)
     x_fc = Flatten()(x_fc)
-    x_fc = Dense(4096, activation='softmax', name='fc4096')(x_fc)
+    x_fc = Dense(1000, activation='softmax', name='fc1000')(x_fc)
 
     model = Model(img_input, x_fc)
-    
+
     # load weights
     if weights_path:
-        model.load_weights(weights_path, by_name=True)
+      model.load_weights(weights_path, by_name=True)
 
     return model
 
 if __name__ == '__main__':
 
-    im = cv2.resize(cv2.imread('jeep.jpg'), (224, 224)).astype(np.float32)
+  im = cv2.resize(cv2.imread('cat.jpg'), (224, 224)).astype(np.float32)
 
-    # Remove train image mean
-    im[:,:,0] -= 103.939
-    im[:,:,1] -= 116.779
-    im[:,:,2] -= 123.68
+  # Remove train image mean
+  im[:,:,0] -= 103.939
+  im[:,:,1] -= 116.779
+  im[:,:,2] -= 123.68
 
-    if K.image_dim_ordering() == 'th':
-        # Transpose image dimensions (Theano uses the channels as the 1st dimension)
-        im = im.transpose((2,0,1))
+  if K.image_dim_ordering() == 'th':
+    # Transpose image dimensions (Theano uses the channels as the 1st dimension)
+    im = im.transpose((2,0,1))
 
-        # Use pre-trained weights for Theano backend
-        weights_path = 'resnet152_weights_th.h5'
-    else:
-        # Use pre-trained weights for Tensorflow backend
-        weights_path = 'resnet152_weights_tf.h5'
+    # Use pre-trained weights for Theano backend
+    weights_path = 'resnet152_weights_th.h5'
+  else:
+    # Use pre-trained weights for Tensorflow backend
+    weights_path = 'resnet152_weights_tf.h5'
 
-    # Insert a new dimension for the batch_size
-    im = np.expand_dims(im, axis=0)
+  # Insert a new dimension for the batch_size
+  im = np.expand_dims(im, axis=0)
 
-    # Test pretrained model
-    model = resnet152_model(weights_path)
-    sgd = SGD(lr=1e-2, decay=1e-6, momentum=0.9, nesterov=True)
-    model.compile(optimizer=sgd, loss='categorical_crossentropy', metrics=['accuracy'])
+  # Test pretrained model
+  model = resnet152_model(weights_path)
+  sgd = SGD(lr=1e-2, decay=1e-6, momentum=0.9, nesterov=True)
+  model.compile(optimizer=sgd, loss='categorical_crossentropy', metrics=['accuracy'])
 
-    preds = model.predict(im)
-    print(np.argmax(preds))
-    
+  out = model.predict(im)
+  print np.argmax(out)
+  

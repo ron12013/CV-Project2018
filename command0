@@ -1,0 +1,1 @@
+python scripts/prepro_labels.py --input_json data/dataset_flickr8k.json --output_json data/flickr8k.json --output_h5 data/flickr8k

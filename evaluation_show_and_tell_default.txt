@@ -1,0 +1,1140 @@
+DataLoader loading json file:  data/flickr8k.json
+vocab size is  2630
+DataLoader loading h5 file:  data/flickr8k_fc data/flickr8k_att data/flickr8k_label.h5
+max sequence length in data is 16
+read 8000 image features
+assigned 6000 images to split train
+assigned 1000 images to split val
+assigned 1000 images to split test
+image 7000: two dogs run through the snow
+image 7001: a brown and white dog is swimming in a pool
+image 7002: a man in a blue shirt is standing in front of a crowd of people
+image 7003: a man in a white shirt is sitting on a bench
+image 7004: a football player in red and white uniform
+image 7005: a brown dog is running through the grass
+image 7006: two girls in red and white outfits
+image 7007: a brown and white dog is running
+image 7008: a black dog is running through the water
+image 7009: a basketball player in a white jersey is running
+evaluating validation preformance... 9/1000 (2.464640)
+image 7010: a group of people are sitting on a bench in front of a building
+image 7011: a man in a black jacket and a white shirt
+image 7012: a black and white dog is jumping over a pole
+image 7013: a woman in a white shirt is standing in front of a white building
+image 7014: a man in a blue shirt is sitting on a rock
+image 7015: a man and a woman are standing in front of a building
+image 7016: two dogs run through the grass
+image 7017: a young boy wearing a blue shirt is standing on a bed
+image 7018: two dogs run through a field
+image 7019: a man in a blue shirt is sitting on a bench
+evaluating validation preformance... 19/1000 (2.902168)
+image 7020: a man is standing on a mountain in the snow
+image 7021: two children are playing in a fountain
+image 7022: a group of people are standing in front of a crowd
+image 7023: a boy in a blue shirt is skateboarding
+image 7024: a yellow car is driving through the mud
+image 7025: a man in a white shirt is standing in front of a building
+image 7026: a young boy wearing a blue shirt is sitting on a red chair
+image 7027: a man and a woman sitting on a bench
+image 7028: a man climbing a rock wall
+image 7029: a man in a black jacket and a black jacket is standing in front of a
+evaluating validation preformance... 29/1000 (2.770447)
+image 7030: a football player in a red jersey is running
+image 7031: two people are climbing up a snowy mountain
+image 7032: a brown dog is playing with a black dog
+image 7033: a person is standing in a canoe in the water
+image 7034: a brown and white dog is running through the grass
+image 7035: a woman in a red jacket is standing in front of a white tent
+image 7036: a young boy in a blue shirt runs through a field
+image 7037: a brown and white dog is jumping over a hurdle
+image 7038: a basketball player in a white jersey is running
+image 7039: a woman in a white shirt is standing in front of a group of people
+evaluating validation preformance... 39/1000 (2.781305)
+image 7040: a little girl is sitting on a couch
+image 7041: a group of people are standing in front of a building
+image 7042: a man and a woman are sitting on a bed
+image 7043: a man is climbing a rock face
+image 7044: three people are walking on a rocky path
+image 7045: a little boy in a blue shirt is playing with a toy
+image 7046: two people are sitting on a bench in front of a building
+image 7047: a man in a red jacket is skiing down a snowy hill
+image 7048: a black and white dog is swimming in the water
+image 7049: a woman and a dog are standing on a beach
+evaluating validation preformance... 49/1000 (2.858035)
+image 7050: a little girl in a pink shirt is playing with a hula hoop
+image 7051: a basketball player in a white jersey is being tackled by a player in the
+image 7052: a girl in a pink dress is standing on a beach
+image 7053: a woman in a black shirt is holding a baby in a white shirt
+image 7054: a man in a blue shirt is standing on the street
+image 7055: a dog swims in a pool
+image 7056: a little boy in a blue shirt is swinging on a swing
+image 7057: a man in a blue shirt is standing on a rocky hill
+image 7058: a black and white dog is running on the beach
+image 7059: a man in a white shirt is standing in front of a white building
+evaluating validation preformance... 59/1000 (2.605455)
+image 7060: a man and a woman are standing in front of a mountain
+image 7061: a boy in a blue shirt is playing on a swing
+image 7062: a motorcycle racer is being ridden on a racetrack
+image 7063: a basketball player in a white jersey is being tackled by a player in the
+image 7064: a man and a woman are sitting on a motorcycle
+image 7065: a group of people are standing in front of a window
+image 7066: a man in a wetsuit is surfing
+image 7067: a white and white dog is running on the beach
+image 7068: a man and a woman are sitting on a bench
+image 7069: a black and white dog is playing with a black dog
+evaluating validation preformance... 69/1000 (2.494276)
+image 7070: a group of people are standing in the water
+image 7071: a dog with a red collar is running in the grass
+image 7072: a group of people are standing in front of a building
+image 7073: a man and a woman are sitting on a dock
+image 7074: a boy is jumping on a trampoline
+image 7075: a group of people are racing on a track
+image 7076: a girl in a pink dress is holding a camera
+image 7077: a snowboarder is jumping over a hill
+image 7078: two girls are standing on a beach
+image 7079: a group of children are playing in the street
+evaluating validation preformance... 79/1000 (2.606476)
+image 7080: a young boy climbing a rock wall
+image 7081: a man and woman sit on a bench
+image 7082: a man in a red jacket is riding a dirt bike down a hill
+image 7083: two people are sitting on a rock overlooking the ocean
+image 7084: a man in a red shirt is jumping over a hill
+image 7085: a girl in a pink shirt is standing on a sidewalk
+image 7086: a dog is running through the water
+image 7087: a girl in a pink shirt is walking on a sidewalk
+image 7088: a brown dog and a black dog are playing in a field
+image 7089: a man is playing a guitar
+evaluating validation preformance... 89/1000 (3.162807)
+image 7090: two young girls are smiling at the camera
+image 7091: two dogs are running through the snow
+image 7092: a black and white dog is running on the sand
+image 7093: a young girl in a pink bathing suit is jumping into a swimming pool
+image 7094: a basketball player in a white jersey is being tackled by a player in the
+image 7095: a young boy with a blue shirt is playing a guitar
+image 7096: a little boy in a blue shirt is running in a field
+image 7097: a man in a red jacket is standing in front of a crowd
+image 7098: a young boy in a wetsuit is surfing
+image 7099: two dogs are playing in the water
+evaluating validation preformance... 99/1000 (2.845614)
+image 7100: three dogs playing in a field
+image 7101: a man in a blue shirt is surfing on a rock
+image 7102: a group of men playing soccer
+image 7103: a crowd of people are standing in front of a crowd
+image 7104: a man and a dog are playing in the snow
+image 7105: a dog is jumping over a log in the woods
+image 7106: a woman in a black jacket is standing in front of a white building
+image 7107: a person is standing on a dock looking into the water
+image 7108: a boy in a blue shirt is playing with a basketball
+image 7109: a man and a woman are walking down the street
+evaluating validation preformance... 109/1000 (2.963939)
+image 7110: a young boy is running on the beach
+image 7111: two people are walking on a sidewalk
+image 7112: two men are standing in front of a white building
+image 7113: a black and white dog is licking its nose
+image 7114: a little girl in a pink bathing suit is swinging on a swing
+image 7115: a young girl jumping on a trampoline
+image 7116: a small white dog and a black dog are playing in the grass
+image 7117: a man in a wetsuit is surfing on a surfboard
+image 7118: a group of children playing in the water
+image 7119: two dogs are running on a track
+evaluating validation preformance... 119/1000 (3.003615)
+image 7120: a young boy in a blue shirt is sitting on a red mat
+image 7121: two black dogs are playing in the grass
+image 7122: a woman in a black shirt is holding a baby in a white shirt
+image 7123: a man in a blue shirt is sitting on a couch
+image 7124: a boy in a blue shirt is running in a field
+image 7125: a skateboarder is jumping over a ramp
+image 7126: a young boy wearing a blue shirt is holding a baby
+image 7127: a black and white dog is running on the beach
+image 7128: a young boy is jumping into the air
+image 7129: two children playing in the water
+evaluating validation preformance... 129/1000 (2.951380)
+image 7130: a baby in a blue shirt is playing with a toy
+image 7131: two people are sitting on a boat in the water
+image 7132: a man in a red jacket is skiing down a snowy hill
+image 7133: a group of dogs are playing in the snow
+image 7134: a girl in a pink dress is smiling
+image 7135: a black and white dog is running through the grass
+image 7136: a black and white bird is flying over the grass
+image 7137: a person is doing a jump on a snowboard
+image 7138: a man in a blue shirt is sitting on a rock
+image 7139: a woman and a woman are smiling
+evaluating validation preformance... 139/1000 (2.588696)
+image 7140: a boy in a blue shirt is playing a guitar
+image 7141: a man in a red helmet is riding a dirt bike
+image 7142: a man on a bike is riding a dirt bike
+image 7143: two white dogs are running through a field
+image 7144: a dog is running through the snow
+image 7145: a woman and a woman are sitting on a bench
+image 7146: a little girl in a pink bathing suit is swimming in a pool
+image 7147: a boy in a blue shirt is jumping into the water
+image 7148: a boy in a blue shirt is jumping on a trampoline
+image 7149: a man in a black jacket and a hat
+evaluating validation preformance... 149/1000 (2.463696)
+image 7150: a dog is jumping over a hurdle
+image 7151: a baby with a baby in his mouth
+image 7152: a group of people sit on a bench
+image 7153: a little boy in a blue shirt is sitting on a blue slide
+image 7154: a young boy wearing a blue shirt is standing in the water
+image 7155: a young boy wearing a blue shirt is running on the grass
+image 7156: a woman in a white shirt is sitting in a chair
+image 7157: a little boy in a blue shirt is sitting on a blue slide
+image 7158: a little girl in a blue shirt is swinging on a swing
+image 7159: two men playing soccer
+evaluating validation preformance... 159/1000 (2.664611)
+image 7160: a group of people in red and white uniforms
+image 7161: two young girls are posing for a picture
+image 7162: a young boy wearing a red shirt and blue jeans is jumping on a red
+image 7163: a young girl in a pink shirt is jumping in the air
+image 7164: a skier is skiing down a snowy hill
+image 7165: a man climbing a rock face
+image 7166: a brown dog is running through the grass
+image 7167: a young girl in a pink shirt is running on the beach
+image 7168: a young boy wearing a blue shirt is sitting on a red chair
+image 7169: a black and white dog is running through the grass
+evaluating validation preformance... 169/1000 (2.725000)
+image 7170: a man in a blue shirt is skateboarding
+image 7171: a group of people are standing on a beach
+image 7172: a man and a woman are sitting on a bench
+image 7173: a black and white dog is running through the water
+image 7174: a man in a white shirt is standing in front of a crowd of people
+image 7175: a man in a cowboy hat is holding a dog
+image 7176: a man in a black jacket is standing in front of a brick wall
+image 7177: a person in a wetsuit is surfing
+image 7178: a black and white dog with a red collar is standing in the grass
+image 7179: a group of young girls are posing for a picture
+evaluating validation preformance... 179/1000 (2.785120)
+image 7180: a young boy in a blue uniform is running on a field
+image 7181: two dogs are playing in the grass
+image 7182: a little girl in a blue shirt is playing on a swing
+image 7183: a group of people are standing in front of a white building
+image 7184: a man is riding a bicycle on a sidewalk
+image 7185: a girl in a pink bathing suit is jumping into the water
+image 7186: a child in a red coat is playing in the snow
+image 7187: a group of people are sitting on a bench in front of a building
+image 7188: a dog runs through the water
+image 7189: three black dogs run through a field
+evaluating validation preformance... 189/1000 (2.845625)
+image 7190: a man in a red jacket is standing in front of a white building
+image 7191: a young boy wearing a blue shirt is playing with a red ball
+image 7192: a brown dog is playing with a toy
+image 7193: a little girl in a pink shirt is playing with a guitar
+image 7194: a man in a blue shirt and blue jeans is skateboarding
+image 7195: a young boy in a blue shirt is playing with a basketball
+image 7196: a man and a woman are sitting on a bench
+image 7197: two people are walking down a street
+image 7198: two people are walking down a street
+image 7199: a man is standing on top of a mountain
+evaluating validation preformance... 199/1000 (2.816170)
+image 7200: a little girl in a pink shirt is sitting on a bed
+image 7201: a woman in a black jacket is sitting in front of a brick wall
+image 7202: two people are standing in front of a large building
+image 7203: a basketball player in a red uniform is being tackled by a player in the
+image 7204: a woman in a white dress is standing in front of a crowd of people
+image 7205: a black and white dog is playing with a black and white dog
+image 7206: a group of people are standing in front of a crowd
+image 7207: a group of children are standing in front of a building
+image 7208: a little girl in a bathing suit is jumping into the water
+image 7209: a young boy in a blue shirt is running in a field
+evaluating validation preformance... 209/1000 (2.816891)
+image 7210: a motorcycle racer is being ridden on a racetrack
+image 7211: a man in a blue shirt is standing in front of a white building
+image 7212: two people are sitting on a boat in the water
+image 7213: a young boy in a blue shirt is running on a track
+image 7214: a woman and a dog are playing in the sand
+image 7215: a man in a blue shirt is sitting on a rock
+image 7216: a child in a red jacket is playing with a toy
+image 7217: a little girl in a pink dress is standing in front of a white house
+image 7218: a brown and white dog is swimming in the water
+image 7219: a black and white dog is chasing a ball
+evaluating validation preformance... 219/1000 (2.595634)
+image 7220: a young boy wearing a helmet rides a bike
+image 7221: a group of people are standing in front of a building
+image 7222: a man is jumping off a ramp
+image 7223: a man in a blue shirt is sitting on a bench with a man in a
+image 7224: a man climbing a rock wall
+image 7225: a little girl in a pink shirt is playing with a toy
+image 7226: two dogs are playing in the snow
+image 7227: a man on a bike is jumping over a hill
+image 7228: a black and white dog is sitting on a bench
+image 7229: a man in a red jacket is skiing down a snowy hill
+evaluating validation preformance... 229/1000 (2.790982)
+image 7230: a dog swims in the water
+image 7231: a black and white dog is playing with a black dog
+image 7232: a skateboarder is doing a trick on a ramp
+image 7233: a little girl in a swimming pool
+image 7234: a little girl in a pink shirt is playing on a swing
+image 7235: a woman in a white shirt is standing in front of a large tree
+image 7236: a little girl in a pink shirt is playing with a red toy
+image 7237: a little boy in a blue shirt is playing with a toy
+image 7238: a man is surfing in the ocean
+image 7239: a man is standing on a rock overlooking the ocean
+evaluating validation preformance... 239/1000 (2.465225)
+image 7240: a man in a black shirt and a black jacket is standing in front of a
+image 7241: a black dog is running through the grass
+image 7242: a young boy with a blue shirt and a blue shirt is eating
+image 7243: a white and white dog is running through the grass
+image 7244: two people are sitting on a bench in a room
+image 7245: a man in a blue shirt is skateboarding on a skateboard
+image 7246: two dogs are running in a field
+image 7247: a brown dog is swimming in the water
+image 7248: a group of football players in red and white uniforms
+image 7249: a black dog running through the snow
+evaluating validation preformance... 249/1000 (2.727398)
+image 7250: a black and white dog is running through the water
+image 7251: a man in a blue shirt is playing a guitar
+image 7252: a woman and a woman are sitting on the beach
+image 7253: a man and a woman are sitting on a table in a room
+image 7254: a boy in a blue jacket is running on a beach
+image 7255: a young girl in a swimsuit is running on the beach
+image 7256: a little boy is sitting on a swing
+image 7257: a man in a blue shirt is sitting on a rock
+image 7258: a black dog is jumping into a swimming pool
+image 7259: a woman in a blue shirt is standing in a field of a field
+evaluating validation preformance... 259/1000 (2.723805)
+image 7260: a little girl in a pink bathing suit is sitting on a rock
+image 7261: a man in a white shirt is sitting on a bench
+image 7262: two dogs are running in the snow
+image 7263: two people are standing on a rocky beach
+image 7264: a man and a woman are sitting on a bench
+image 7265: a man is doing a trick on a bicycle
+image 7266: a small boy jumps over a hurdle
+image 7267: a woman in a black shirt is holding a baby in a baby
+image 7268: a little boy is sitting on a bed
+image 7269: a group of people are standing in front of a building
+evaluating validation preformance... 269/1000 (3.002985)
+image 7270: a young boy is jumping on a skateboard
+image 7271: a young boy wearing a red jacket is standing in the grass
+image 7272: a boy in a blue shirt is jumping in the air
+image 7273: a man in a red jacket is riding a dirt bike
+image 7274: a man in a blue shirt is standing in front of a crowd
+image 7275: a man on a motorcycle is jumping over a hill
+image 7276: a man in a red shirt and white pants is riding a bike
+image 7277: a little boy in a blue shirt is climbing up a rock face
+image 7278: two dogs play in the water
+image 7279: a man in a black shirt is standing in front of a white building
+evaluating validation preformance... 279/1000 (2.625956)
+image 7280: a little boy in a red shirt is playing with a toy
+image 7281: a young boy in a red shirt is jumping into the air
+image 7282: a young boy wearing a blue shirt is jumping on a trampoline
+image 7283: a basketball player in a red jersey is running
+image 7284: a girl in a red jacket is smiling
+image 7285: a black and white dog is playing with a white dog
+image 7286: a white dog is running through a grassy field
+image 7287: a brown dog is standing in the water
+image 7288: a little girl in a blue shirt is swinging on a swing
+image 7289: two men are sitting at a table in a restaurant
+evaluating validation preformance... 289/1000 (2.568690)
+image 7290: a woman is sitting on a bench in a park
+image 7291: a group of people stand in front of a building
+image 7292: a man in a white shirt is standing in front of a white building
+image 7293: a group of people are standing in the snow
+image 7294: two children are playing in a fountain
+image 7295: a black and white dog is standing in front of a white dog
+image 7296: a man on a bike is riding a dirt bike
+image 7297: two dogs are playing in a field
+image 7298: a little girl in a blue bathing suit is playing in a pool
+image 7299: two dogs are playing in the water
+evaluating validation preformance... 299/1000 (2.852017)
+image 7300: a man in a white shirt and a white shirt is standing in front of a
+image 7301: a woman in a white shirt is standing in front of a white building
+image 7302: a man in a white shirt is standing in front of a white building
+image 7303: a brown dog is playing with a black and white dog
+image 7304: a young boy wearing a blue shirt is jumping on a trampoline
+image 7305: two dogs are playing in a yard
+image 7306: a man in a red jacket is standing in front of a crowd of people
+image 7307: a black and white dog is swimming in the water
+image 7308: two young girls are sitting on a bench
+image 7309: a man in a wetsuit is surfing
+evaluating validation preformance... 309/1000 (2.466654)
+image 7310: a man and a woman are sitting on a boat
+image 7311: a dog is jumping over a log
+image 7312: a little boy is sitting on a bed
+image 7313: a little girl in a blue shirt is eating a piece of bread
+image 7314: a skateboarder is doing a trick on a ramp
+image 7315: a dog is running on the beach
+image 7316: a black and white dog is running through a stream
+image 7317: a little girl in a pink dress is sitting on a blue blanket
+image 7318: a man is standing on a mountaintop
+image 7319: a man in a red shirt is riding a bike on a dirt track
+evaluating validation preformance... 319/1000 (2.595389)
+image 7320: a man in a blue shirt is climbing a rock wall
+image 7321: a group of people are standing in front of a white building
+image 7322: a man in swim trunks is jumping into the water
+image 7323: a man in a white shirt is standing in front of a white building
+image 7324: a man in a black shirt and a woman in a white shirt
+image 7325: a white dog is running through the grass
+image 7326: two people are standing in front of a mountain
+image 7327: a young boy wearing a blue shirt is standing in front of a brick wall
+image 7328: a greyhound dog is running on a track
+image 7329: a group of people are standing in front of a building
+evaluating validation preformance... 329/1000 (2.691270)
+image 7330: a group of dogs are running through the snow
+image 7331: a white dog is walking in the snow
+image 7332: a boy is jumping off of a skateboard
+image 7333: a young boy wearing a red shirt is jumping on a swing
+image 7334: a man in a red jacket and a helmet is riding a bicycle
+image 7335: a group of people are standing in front of a large building
+image 7336: a woman in a red shirt is standing in front of a white building
+image 7337: a man and a woman are sitting on a bench
+image 7338: a group of people sitting on a bench in a park
+image 7339: a man in a blue shirt is standing on a sidewalk
+evaluating validation preformance... 339/1000 (2.941421)
+image 7340: a man is climbing a rock wall
+image 7341: a girl in a pink dress is standing in front of a large crowd
+image 7342: a man in a blue shirt is skateboarding
+image 7343: a girl in a pink shirt is standing in the sand
+image 7344: a football player in a white jersey is running on the field
+image 7345: two young girls are posing for a picture
+image 7346: a white and white dog is walking on a sidewalk
+image 7347: a man in a red helmet is riding a motorcycle
+image 7348: a man in a black jacket and a hat is standing in front of a
+image 7349: two dogs are running through a field
+evaluating validation preformance... 349/1000 (2.648171)
+image 7350: a young girl in a pink bathing suit is jumping into the water
+image 7351: a man and a woman are sitting on a bench
+image 7352: two children playing soccer
+image 7353: a little girl in a pink shirt is holding a baby in a baby
+image 7354: two dogs play in the snow
+image 7355: a greyhound dog is running on a track
+image 7356: a dog jumps over a hurdle
+image 7357: two people are sitting on a rock overlooking the water
+image 7358: a group of people are sitting on a swing in a park
+image 7359: two dogs are running through the snow
+evaluating validation preformance... 359/1000 (2.563186)
+image 7360: two people are in a canoe in the water
+image 7361: a woman in a white shirt and a white shirt is standing in front of a
+image 7362: a man is performing a trick on a motorcycle
+image 7363: a man in a black shirt and a white shirt is smiling
+image 7364: a brown dog is running through the snow
+image 7365: a young boy jumps off a swing
+image 7366: a skier is skiing down a snowy hill
+image 7367: a brown dog is jumping into the water
+image 7368: a little girl is sitting on a couch
+image 7369: a motorcycle racer is being ridden on a racetrack
+evaluating validation preformance... 369/1000 (2.341708)
+image 7370: a football player in a red jersey is being tackled by a player in
+image 7371: a group of people are sitting on a bench
+image 7372: a young boy is splashing in water
+image 7373: a white dog with a blue collar is standing in the grass
+image 7374: a woman in a blue shirt is running on the beach
+image 7375: a dog is running through the snow
+image 7376: a group of people are racing around a track
+image 7377: a man is climbing a rock wall
+image 7378: a woman in a white shirt is standing in front of a white building
+image 7379: a young boy is jumping into a swimming pool
+evaluating validation preformance... 379/1000 (2.637326)
+image 7380: a man in a red jacket is riding a bike on a dirt road
+image 7381: a man in a blue shirt is sitting on a rock
+image 7382: two dogs are playing with a ball
+image 7383: a man in a black shirt is standing in front of a crowd of people
+image 7384: a man in a red jacket is riding a bike on a dirt road
+image 7385: a person in a yellow jacket is driving through the water
+image 7386: a black and brown dog is running through a grassy field
+image 7387: a man in a blue shirt and jeans is riding a skateboard
+image 7388: a young boy jumps into the air
+image 7389: a man in a blue shirt is standing on the sidewalk
+evaluating validation preformance... 389/1000 (3.086333)
+image 7390: a man in a red uniform is running on a field
+image 7391: a boy in a red jacket and a hat
+image 7392: a group of men playing hockey
+image 7393: a man in a white shirt is playing a guitar
+image 7394: a brown dog is licking its nose
+image 7395: a young girl is sitting on a couch
+image 7396: a woman in a blue jacket is sitting on the beach
+image 7397: a young boy wearing a blue shirt is standing in front of a white building
+image 7398: a woman in a red jacket is sitting on a bench
+image 7399: a dog runs through the water
+evaluating validation preformance... 399/1000 (2.626684)
+image 7400: a woman and a dog are walking on the beach
+image 7401: a young boy wearing a blue shirt is swinging on a swing
+image 7402: a man and a woman are sitting on a bench
+image 7403: three dogs are in the snow
+image 7404: a black dog is running through a grassy area
+image 7405: a brown dog is playing with a white dog
+image 7406: two dogs are running through the snow
+image 7407: a dog is jumping into the water
+image 7408: two dogs are playing in the grass
+image 7409: a little girl in a pink shirt is playing with a ball
+evaluating validation preformance... 409/1000 (2.402136)
+image 7410: a man in a blue shirt is standing in front of a crowd
+image 7411: a man in a red jacket is standing in front of a crowd of people
+image 7412: a black and white dog is running on the grass
+image 7413: two girls are playing in the water
+image 7414: a man and a woman are standing in front of a building
+image 7415: a young boy is jumping off of a trampoline
+image 7416: a man is standing in front of a waterfall
+image 7417: a woman in a red jacket is sitting on a bench
+image 7418: two greyhounds are racing around a track
+image 7419: a little boy in a blue shirt is playing on a swing
+evaluating validation preformance... 419/1000 (3.004092)
+image 7420: a brown dog is running through the woods
+image 7421: a man in a blue shirt is sitting on a wooden bench
+image 7422: a dog is playing with a ball
+image 7423: a group of people are sitting on a bench in front of the ocean
+image 7424: a brown dog is laying on its hind legs
+image 7425: a group of people are standing in front of a building
+image 7426: a young boy wearing a blue shirt is jumping on a trampoline
+image 7427: a dog is running through the water
+image 7428: a black and white dog is jumping into a lake
+image 7429: a black and white dog is swimming in the water
+evaluating validation preformance... 429/1000 (2.533528)
+image 7430: a group of people are posing for a picture
+image 7431: a man is standing in the water
+image 7432: a white dog is walking through the snow
+image 7433: a boy in a red jacket is running on a snowy hill
+image 7434: a group of people are walking in a race
+image 7435: a brown dog is playing with a toy
+image 7436: a young girl in a bathing suit is standing on the beach
+image 7437: a woman in a black shirt is holding a baby in a blue shirt
+image 7438: a man is riding a bike on a dirt path
+image 7439: a group of people are sitting on a bench
+evaluating validation preformance... 439/1000 (2.712783)
+image 7440: a group of people are standing in front of a building
+image 7441: a man and a little girl are playing in a field
+image 7442: a woman in a blue shirt is holding a basketball
+image 7443: two dogs are playing in the water
+image 7444: a man and a woman are sitting on a bench
+image 7445: a person in a red jacket is sitting in a chair
+image 7446: a man in a black shirt and a woman in a black shirt
+image 7447: a man and a woman are sitting on a bench
+image 7448: a person in a red jacket is climbing up a snowy mountain
+image 7449: a group of people are sitting on a raft in the ocean
+evaluating validation preformance... 449/1000 (2.994296)
+image 7450: a little girl in a pink dress is running through a grassy area
+image 7451: a black and white bird is flying over a wave
+image 7452: a surfer is riding a wave
+image 7453: a group of children are sitting on a trampoline
+image 7454: a brown and white dog is running through the grass
+image 7455: a man and a woman are sitting on a bench
+image 7456: a woman in a black jacket is walking down a street
+image 7457: a person on a bike is jumping over a hill
+image 7458: a basketball player in a white uniform is being carried by a player in a
+image 7459: a little girl in a pink dress is playing on a playground
+evaluating validation preformance... 459/1000 (2.551793)
+image 7460: a man in a white shirt is sitting on a bench
+image 7461: a little girl in a swimming pool
+image 7462: a man in a blue shirt is holding a camera
+image 7463: a man is standing on top of a cliff
+image 7464: a young boy in a blue shirt is running through the grass
+image 7465: three people are walking on a snowy hill
+image 7466: a young boy wearing a blue shirt is playing with a ball
+image 7467: a little girl in a pink shirt is jumping on a trampoline
+image 7468: a man in a black shirt is holding a drink
+image 7469: a man in a wetsuit is surfing
+evaluating validation preformance... 469/1000 (2.705406)
+image 7470: a basketball player in a white jersey is running
+image 7471: a man and a dog are standing on a dirt road
+image 7472: a brown dog is digging in the sand
+image 7473: a group of people sit on a bench
+image 7474: a man in a black jacket and a woman in a black jacket
+image 7475: two people are standing on a beach with a man in the background
+image 7476: two dogs are playing in a field
+image 7477: a dog running on the beach
+image 7478: a young boy is playing with a hula hoop
+image 7479: a young boy wearing a blue shirt is standing in front of a white building
+evaluating validation preformance... 479/1000 (2.656219)
+image 7480: a basketball player in a white uniform is trying to hit the ball
+image 7481: two football players in red and white uniforms
+image 7482: a dog is running through the grass
+image 7483: a black and white dog is jumping over a bar
+image 7484: a black and white dog is running through the snow
+image 7485: a person in a blue shirt is jumping off of a rock
+image 7486: a man in a cowboy hat and a cowboy hat and a dog
+image 7487: a man in a red jacket is standing in the snow
+image 7488: a man in a red jacket is riding a bike through the woods
+image 7489: a man in a white shirt is standing in front of a white building
+evaluating validation preformance... 489/1000 (2.681495)
+image 7490: a surfer is riding a wave
+image 7491: a young boy in a blue shirt is running in a field
+image 7492: a little girl in a pink shirt is blowing bubbles
+image 7493: a man in a black jacket and a hat is sitting on a bench
+image 7494: two people are skiing down a snowy hill
+image 7495: a little boy is playing on a swing
+image 7496: a man and a woman are sitting on a bench
+image 7497: a young boy wearing a blue shirt is playing on a swing
+image 7498: a man in a white shirt is standing in front of a crowd of people
+image 7499: a little girl in a pink shirt is standing in the snow
+evaluating validation preformance... 499/1000 (2.824387)
+image 7500: three children playing soccer
+image 7501: a skier is jumping over a hill
+image 7502: a woman in a black shirt is holding a baby in a white shirt
+image 7503: a brown dog is running through the snow
+image 7504: a man and a woman are walking down a street
+image 7505: a little boy in a blue shirt is playing with a toy
+image 7506: a greyhound dog is running on a track
+image 7507: a man is standing in the water with a boat in the background
+image 7508: a basketball player in a white uniform is trying to hit the ball
+image 7509: a brown dog is jumping over a wooden fence
+evaluating validation preformance... 509/1000 (2.861944)
+image 7510: a man is climbing a rock wall
+image 7511: a woman in a white shirt is standing in front of a white building
+image 7512: a young boy wearing a blue shirt is standing on a beach
+image 7513: a dog jumps over a hurdle
+image 7514: a little girl in a pink shirt is playing on a swing
+image 7515: two dogs play in the water
+image 7516: a group of people are standing in front of a building
+image 7517: a little boy in a blue shirt is playing on a swing
+image 7518: a little girl in a pink shirt is jumping in the air
+image 7519: a young boy in a blue shirt is playing a guitar
+evaluating validation preformance... 519/1000 (2.669114)
+image 7520: a man in a white shirt and jeans stands in a field
+image 7521: a group of people are sitting at a table in a restaurant
+image 7522: a man and a dog are sitting on a dock
+image 7523: a snowboarder is jumping over a hill
+image 7524: a little girl in a pink shirt is playing on a swing
+image 7525: two people are riding their bikes on a dirt road
+image 7526: two white dogs are running through a field
+image 7527: a young boy jumps into a swimming pool
+image 7528: a small black and white dog is playing with a black dog
+image 7529: a group of people are standing in front of a building
+evaluating validation preformance... 529/1000 (2.692599)
+image 7530: a young girl is eating a peach
+image 7531: a man in a black jacket and a black jacket
+image 7532: a group of people are standing in front of a building
+image 7533: a group of football players in red and white uniforms
+image 7534: a motorcycle rider is riding a dirt bike
+image 7535: a group of people are standing on a beach
+image 7536: a snowboarder in midair
+image 7537: a man in a black shirt and a woman in a white shirt
+image 7538: a group of people are standing on a dirt road
+image 7539: a little boy in a blue shirt is swinging on a swing
+evaluating validation preformance... 539/1000 (2.835071)
+image 7540: a group of children are playing in a pile of hay
+image 7541: a young boy wearing a blue shirt is sitting on a swing
+image 7542: a man in a blue shirt is standing on the pavement
+image 7543: a dog jumps to catch a frisbee
+image 7544: a skateboarder in the air
+image 7545: a little boy in a blue shirt is playing with a toy
+image 7546: a man in a white shirt and a white shirt is holding a drink
+image 7547: a group of children playing soccer
+image 7548: a man is sitting on a bench in a park
+image 7549: a man in a white shirt is playing a guitar
+evaluating validation preformance... 549/1000 (2.760972)
+image 7550: a man in a white shirt is playing with a guitar
+image 7551: a little girl in a pink shirt is walking on a grassy path
+image 7552: a young boy in a blue shirt is standing in front of a crowd of people
+image 7553: a boy in a blue shirt is jumping over a hurdle
+image 7554: a group of people are sitting at a table in a restaurant
+image 7555: a man in a white shirt is standing in front of a brick wall
+image 7556: a group of people are standing on a track
+image 7557: a brown dog is standing in the water
+image 7558: a young boy wearing a blue shirt is sitting on a blue raft
+image 7559: a tennis player in a white shirt is playing with a tennis ball
+evaluating validation preformance... 559/1000 (3.015710)
+image 7560: two dogs are running in the water
+image 7561: a man in a wetsuit is surfing
+image 7562: a group of children are sitting on a bench
+image 7563: a man in a blue shirt is skateboarding
+image 7564: two girls in bathing suits are playing in the water
+image 7565: a dog running through the water
+image 7566: three children are sitting on a couch
+image 7567: a brown and white dog is running through a grassy field
+image 7568: a small white dog is running through the grass
+image 7569: a woman in a white shirt and black pants is walking down a sidewalk
+evaluating validation preformance... 569/1000 (2.551504)
+image 7570: a man in a red shirt is standing in front of a crowd
+image 7571: a person in a red jacket is climbing up a snowy mountain
+image 7572: a woman is sitting on a bench in a park
+image 7573: a young girl in a bathing suit is jumping into the water
+image 7574: a little girl is sitting on a couch
+image 7575: a dog jumps over a hurdle
+image 7576: a young boy is playing with a red toy
+image 7577: a brown dog is playing with a toy
+image 7578: a man is riding a bike on a dirt track
+image 7579: a black and white dog is running through the grass
+evaluating validation preformance... 579/1000 (2.560081)
+image 7580: three people sit on a rock
+image 7581: a man in a wetsuit is surfing
+image 7582: a person is standing on a snowy mountain
+image 7583: a white dog is running on the beach
+image 7584: a young boy in a blue shirt and blue shorts is jumping in the air
+image 7585: three dogs are running through the snow
+image 7586: a dog is walking on the beach
+image 7587: a football player in a red jersey is being tackled by a player in
+image 7588: a group of people are playing soccer on a field
+image 7589: a dog is standing in the water
+evaluating validation preformance... 589/1000 (2.565631)
+image 7590: a little girl in a pink shirt is sitting on a bed
+image 7591: a basketball player is being tackled by a player
+image 7592: a man is jumping into a swimming pool
+image 7593: a person in a red jacket is snowboarding
+image 7594: a group of people are sitting on a bench
+image 7595: a man in a blue shirt is climbing a rock wall
+image 7596: a black and white dog swimming in a pool
+image 7597: a group of people are standing in front of a crowd
+image 7598: a man in a blue uniform is playing with a ball
+image 7599: a person is climbing up a rock
+evaluating validation preformance... 599/1000 (2.749819)
+image 7600: a man in a blue shirt is jumping on a skateboard
+image 7601: a little girl in a pink shirt is playing with a hula hoop
+image 7602: a dog jumps over a hurdle
+image 7603: a woman in a red shirt and a white shirt is smiling
+image 7604: a man is jumping over a hurdle
+image 7605: a brown and white dog is playing with a ball
+image 7606: a young boy wearing a blue shirt and blue shorts is running
+image 7607: a young boy is playing with a guitar
+image 7608: a black and white dog is playing with a black dog
+image 7609: a group of people are standing in a field
+evaluating validation preformance... 609/1000 (2.727904)
+image 7610: a young boy is sitting on a bed
+image 7611: a brown dog is running through the water
+image 7612: a brown dog jumps over a hurdle
+image 7613: a young boy is standing on a rock overlooking a forest
+image 7614: two dogs are playing with each other
+image 7615: a group of people are standing in front of a building
+image 7616: a little girl in a blue shirt is playing with a toy
+image 7617: a brown dog is playing with a toy
+image 7618: a man in a red jacket and a helmet riding a bike
+image 7619: a young boy wearing a blue shirt is jumping on a skateboard
+evaluating validation preformance... 619/1000 (2.705532)
+image 7620: a man in a cowboy hat is riding a horse
+image 7621: a white dog is running on the beach
+image 7622: a man in a white shirt is standing in front of a group of people
+image 7623: a dog jumps over a hurdle
+image 7624: a girl in a pink bathing suit is jumping into a swimming pool
+image 7625: a little girl in a pink dress is running through a grassy area
+image 7626: a man is riding a bike on a dirt road
+image 7627: a group of people are standing in front of a building
+image 7628: a skateboarder is jumping over a ramp
+image 7629: a woman in a pink jacket is sitting on a red chair
+evaluating validation preformance... 629/1000 (2.820501)
+image 7630: two young boys playing soccer
+image 7631: a little girl in a pink shirt is jumping on a swing
+image 7632: a man in a blue shirt is sitting on a table with a man in a
+image 7633: two dogs are playing in the water
+image 7634: two dogs are running in a race
+image 7635: a group of people are standing in front of a building
+image 7636: a black and white dog is playing with a ball
+image 7637: a black and white dog is running through the snow
+image 7638: a group of people are sitting on a table in a room
+image 7639: a man in a black shirt and a white hat is holding a drink
+evaluating validation preformance... 639/1000 (2.994749)
+image 7640: a man in a wetsuit is surfing
+image 7641: a white and white dog is running through the grass
+image 7642: a little girl in a pink shirt is walking on a sidewalk
+image 7643: two young girls in red and white dresses
+image 7644: a woman and a little girl are sitting on a bed
+image 7645: a black dog is running through the water
+image 7646: a man in a wetsuit is surfing
+image 7647: a group of people are standing in front of a crowd
+image 7648: a girl in a red shirt is playing with a red toy
+image 7649: a little boy in a blue shirt is playing on a swing
+evaluating validation preformance... 649/1000 (2.882758)
+image 7650: a man and woman sit on a bench
+image 7651: a man on a bike is doing a trick on a bike
+image 7652: a group of people are standing in front of a building
+image 7653: two dogs are running on the beach
+image 7654: a man in a blue shirt is standing in a field of grass
+image 7655: a brown dog is running through the grass
+image 7656: a woman and a woman are sitting on a bed
+image 7657: a black and white dog is playing in a pool
+image 7658: a man and a woman are standing in front of a white tent
+image 7659: a black dog runs through the water
+evaluating validation preformance... 659/1000 (2.518286)
+image 7660: a woman and a woman are smiling
+image 7661: a man in a white shirt is standing in front of a white building
+image 7662: a little girl is sitting on a swing
+image 7663: a man in a red shirt is holding a cup of a man
+image 7664: a black and white dog is running through the grass
+image 7665: a brown dog is laying on the grass
+image 7666: a brown dog is jumping over a hurdle
+image 7667: a man in a wetsuit is surfing
+image 7668: a black dog is running through the water
+image 7669: a snowboarder is jumping over a pile of snow
+evaluating validation preformance... 669/1000 (2.494893)
+image 7670: a woman in a red jacket is standing in front of a white truck
+image 7671: a young boy wearing a red shirt and a hat
+image 7672: two young girls are playing with a toy
+image 7673: a little boy with a blue shirt is playing with a guitar
+image 7674: a little girl in a pink dress is playing in a playground
+image 7675: a person is standing on a snowy mountain
+image 7676: two people are standing in front of a mountain
+image 7677: a man in a black jacket is standing in front of a crowd
+image 7678: a dog is running through the woods
+image 7679: a football player in a red jersey is being tackled by a player in
+evaluating validation preformance... 679/1000 (2.744836)
+image 7680: a young girl in a pink shirt is walking on the beach
+image 7681: a boy in a blue shirt is playing a guitar
+image 7682: a group of people are riding bicycles on a track
+image 7683: a group of people are standing in front of a building
+image 7684: a person is jumping over a large body of water
+image 7685: a black dog is running through the grass
+image 7686: a skateboarder performs a trick on a ramp
+image 7687: a person is standing on a snowy mountain
+image 7688: a person is doing a trick on a snowboard
+image 7689: a young girl wearing a pink shirt is holding a camera
+evaluating validation preformance... 689/1000 (2.744671)
+image 7690: a dog runs through the snow
+image 7691: a man in a red shirt and blue pants is riding a snowboard
+image 7692: a woman is petting a dog
+image 7693: a brown and white dog is running through a wooded area
+image 7694: a black and white dog is running through a grassy area
+image 7695: a woman in a red jacket is standing in front of a white tent
+image 7696: a young girl in a pink shirt is walking on the beach
+image 7697: two children are playing on a swing
+image 7698: a group of men playing soccer
+image 7699: a white bird is flying over water
+evaluating validation preformance... 699/1000 (2.693784)
+image 7700: a young boy is jumping on a trampoline
+image 7701: a race car is driving through a race
+image 7702: a man in a black shirt and a white shirt is standing in front of a
+image 7703: a man and a woman are sitting on a bench
+image 7704: a woman in a black shirt is holding a baby in a blue shirt
+image 7705: a little girl in a blue shirt is playing on a swing
+image 7706: a group of young women wearing black and white outfits
+image 7707: a black and white dog is running through the snow
+image 7708: a group of people are standing in front of a building
+image 7709: a man in a blue shirt is climbing a rock
+evaluating validation preformance... 709/1000 (2.701065)
+image 7710: a surfer is riding a wave
+image 7711: a man in a blue jacket is standing in front of a mountain
+image 7712: a dog is playing with a ball in the sand
+image 7713: a basketball player in a white uniform is trying to hit the ball
+image 7714: a young boy in a blue shirt is playing a basketball
+image 7715: a brown and white dog is jumping over a hurdle
+image 7716: a baseball player in a white uniform is running on a field
+image 7717: two dogs are playing in the water
+image 7718: a black dog is running through the water
+image 7719: a little boy in a blue shirt is swinging on a swing
+evaluating validation preformance... 719/1000 (2.385570)
+image 7720: a man in a blue shirt is sitting on a bench
+image 7721: a man in a red uniform is running in a field
+image 7722: a woman in a blue shirt is standing on the beach
+image 7723: a man on a bike is jumping over a hill
+image 7724: a little boy in a blue shirt is jumping on a trampoline
+image 7725: a young boy is jumping into the water
+image 7726: a group of people are standing in front of a building
+image 7727: a snowboarder is jumping over a ramp
+image 7728: a man and a dog are playing on the beach
+image 7729: a man in a wetsuit is surfing
+evaluating validation preformance... 729/1000 (2.654453)
+image 7730: a man in a white shirt is standing in front of a white building
+image 7731: a girl in a pink dress is holding a camera
+image 7732: a dog is jumping over a hurdle
+image 7733: a group of people are standing in front of a building
+image 7734: a skier in a red jacket is snowboarding
+image 7735: a man on a bike is riding a bike
+image 7736: a small white dog is jumping over a log
+image 7737: a white dog is running through a grassy field
+image 7738: a young boy wearing a blue shirt is riding a bike
+image 7739: a baseball player in a white shirt is playing with a ball
+evaluating validation preformance... 739/1000 (2.861404)
+image 7740: a girl in a pink bathing suit is swimming in a pool
+image 7741: a man in a black jacket and a black jacket is smiling
+image 7742: a little boy is playing in a pool
+image 7743: a little girl in a pink shirt is walking on a sidewalk
+image 7744: a man is performing a trick on a bicycle
+image 7745: a man in a wetsuit is surfing
+image 7746: a young girl in a pink shirt is running on the grass
+image 7747: a woman in a blue shirt is sitting on a red chair
+image 7748: a man in a blue shirt is standing on a street with a crowd
+image 7749: a white dog is running on the beach
+evaluating validation preformance... 749/1000 (2.667894)
+image 7750: two people are on a snowy hill
+image 7751: a man in a blue shirt is sitting on a dock
+image 7752: a crowd of people are standing in front of a building
+image 7753: a black dog is running through a field
+image 7754: a man in a helmet is riding a dirt bike
+image 7755: a little girl is playing with a toy in a yard
+image 7756: a little girl in a pink dress is standing in the grass
+image 7757: a little girl in a blue shirt is swinging on a swing
+image 7758: a young girl in a swimming pool
+image 7759: a little girl in a pink shirt is playing with a toy
+evaluating validation preformance... 759/1000 (2.683774)
+image 7760: a young girl in a pink dress is standing in front of a large tree
+image 7761: a white dog is playing with a black dog
+image 7762: a man is standing in the middle of a mountain
+image 7763: a black and white dog is running through a grassy field
+image 7764: a group of people are standing in front of a building
+image 7765: two people are standing on a snowy mountain
+image 7766: a man is riding a dirt bike in the woods
+image 7767: a young girl in a pink shirt is running in a field
+image 7768: a man is jumping into a swimming pool
+image 7769: a man is performing a trick on a bicycle
+evaluating validation preformance... 769/1000 (2.637525)
+image 7770: a group of people are standing in the snow
+image 7771: two people are sitting on a boat in the ocean
+image 7772: a group of dogs are running on a beach
+image 7773: a man in a black jacket is standing in front of a crowd of people
+image 7774: a young boy wearing a helmet is riding a bike
+image 7775: a tennis player in a white shirt is playing with a tennis ball
+image 7776: a man in a red helmet is riding a dirt bike
+image 7777: a young boy in a blue shirt is standing on a rock
+image 7778: two children playing soccer
+image 7779: a group of people are playing basketball
+evaluating validation preformance... 779/1000 (2.454491)
+image 7780: two men are riding bicycles
+image 7781: a little girl in a pink bathing suit is jumping into the water
+image 7782: a young boy in a blue shirt is standing on the beach
+image 7783: two children are playing in the water
+image 7784: a group of people are skiing down a snowy hill
+image 7785: a white dog is running through the snow
+image 7786: a man and a woman are sitting on a bench
+image 7787: a woman in a white shirt and a white shirt is standing in front of a
+image 7788: a brown dog is running through the grass
+image 7789: two people are sitting on a boat in the water
+evaluating validation preformance... 789/1000 (2.546346)
+image 7790: a group of people are standing in front of a building
+image 7791: a dog jumps into a pool
+image 7792: a man in a blue shirt is climbing a rock
+image 7793: three people are sitting on a rock overlooking the mountains
+image 7794: a group of people are standing on a street in front of a building
+image 7795: a man in a red jacket is standing in front of a building
+image 7796: a group of people are standing in front of a mountain
+image 7797: two young girls are playing with a ball
+image 7798: a boy in a blue shirt is holding a basketball
+image 7799: a girl in a pink shirt is running through the grass
+evaluating validation preformance... 799/1000 (2.719993)
+image 7800: a little boy is jumping into a swimming pool
+image 7801: a little boy is sitting on a couch
+image 7802: two girls in a blue dress are standing in front of a white building
+image 7803: two dogs are running on a dirt path
+image 7804: two people are sitting on a rock overlooking the water
+image 7805: a brown dog is laying on the grass
+image 7806: a man in a blue shirt is standing in front of a brick wall
+image 7807: a girl in a pink shirt is sitting on a bed
+image 7808: a man and a dog are standing in a field
+image 7809: a dog running through the grass
+evaluating validation preformance... 809/1000 (2.665590)
+image 7810: a group of people are standing in front of a building
+image 7811: a man in a white shirt and blue shorts is playing tennis
+image 7812: a man is jumping into the air
+image 7813: a group of children playing soccer
+image 7814: a man in a blue shirt is skateboarding
+image 7815: a brown dog is running through a grassy field
+image 7816: a little boy is sitting on a bed
+image 7817: a man in a white shirt is playing a guitar
+image 7818: two dogs are pulling a sled through the snow
+image 7819: a little boy in a blue shirt is playing with a toy
+evaluating validation preformance... 819/1000 (2.795623)
+image 7820: a brown and white dog is running through the grass
+image 7821: a surfer in a wetsuit is surfing
+image 7822: two dogs are running through a field
+image 7823: a man in a blue shirt is standing on the street
+image 7824: two dogs are playing in a grassy field
+image 7825: two dogs are playing in a field
+image 7826: a man and a woman are standing in front of a bus
+image 7827: a young boy is running through a grassy field
+image 7828: a man in a blue shirt is standing in front of a building
+image 7829: a young boy in a blue shirt is running in a field
+evaluating validation preformance... 829/1000 (2.715137)
+image 7830: a baseball player in a red uniform is running on a field
+image 7831: two women in black and white dresses
+image 7832: a skier is jumping over a snowy hill
+image 7833: two dogs run through the snow
+image 7834: a white bird is flying over the water
+image 7835: a woman in a bathing suit is standing on the beach
+image 7836: a girl in a pink dress is holding a camera
+image 7837: a man in a wetsuit is surfing
+image 7838: a brown dog is jumping over a hurdle
+image 7839: two young girls are playing in a pile of hay
+evaluating validation preformance... 839/1000 (2.876735)
+image 7840: a boy in a red shirt is running on a track
+image 7841: a woman in a black shirt and a woman in a white dress
+image 7842: a little girl in a blue shirt is sitting on a bed
+image 7843: two people are sitting on a snowy hill
+image 7844: two dogs are playing in a field
+image 7845: a dog is jumping over a hurdle
+image 7846: a person in a yellow jacket is sitting on a large rock
+image 7847: a man and a dog are playing in a field
+image 7848: a dog running through the sand
+image 7849: a man and a woman are sitting on a dock
+evaluating validation preformance... 849/1000 (2.881295)
+image 7850: a brown dog is running through the grass
+image 7851: a young boy in a blue uniform is playing with a basketball
+image 7852: a woman in a white shirt is standing next to a woman in a white shirt
+image 7853: a man wearing a helmet and helmet is riding a bike
+image 7854: a white dog is running on the grass
+image 7855: two people are sitting in a canoe on a lake
+image 7856: a man in a wetsuit is jumping into the water
+image 7857: a group of people are standing in front of a building
+image 7858: a man and a woman are sitting on a bench
+image 7859: a little boy is sitting on a bed
+evaluating validation preformance... 859/1000 (2.337065)
+image 7860: a young boy in a wetsuit is running on the beach
+image 7861: a woman in a pink shirt is holding a camera
+image 7862: a young boy with a blue shirt and a woman in a pink shirt
+image 7863: a black and white dog is running through a field
+image 7864: a dog is running through the water
+image 7865: a man and woman are sitting on a bench
+image 7866: a young boy in a swimsuit is standing on the beach
+image 7867: a boy in a blue shirt is jumping on a swing
+image 7868: two dogs are playing with each other
+image 7869: two dogs are playing in the sand
+evaluating validation preformance... 869/1000 (2.394158)
+image 7870: a dog runs through the grass
+image 7871: a young boy is running on the beach
+image 7872: a black and white dog is jumping over a hurdle
+image 7873: a dog is running through a green tunnel
+image 7874: two young boys playing with a ball
+image 7875: a group of men playing football
+image 7876: a man in a blue shirt is jumping over a rock
+image 7877: a man in a blue shirt is playing with a black dog
+image 7878: a group of people are standing on a fire in front of a white building
+image 7879: a man in a blue shirt is standing on the beach
+evaluating validation preformance... 879/1000 (2.427827)
+image 7880: a black and white dog is running on the beach
+image 7881: a young girl in a pink shirt is walking on a path
+image 7882: a girl in a pink jacket is standing in the snow
+image 7883: a man is riding a dirt bike on a track
+image 7884: a man in a blue shirt is standing next to a man in a blue shirt
+image 7885: a man in a blue shirt is sitting on a bench
+image 7886: a brown and white dog is running through the grass
+image 7887: a little girl in a pink shirt is sitting on a wooden bench
+image 7888: a young boy wearing a helmet rides a bike
+image 7889: a man in a black jacket is standing in the snow
+evaluating validation preformance... 889/1000 (2.821708)
+image 7890: a boy in a red jacket is snowboarding
+image 7891: a man in a blue jacket is standing on a mountain
+image 7892: two people are on a boat in the water
+image 7893: a brown dog is playing with a white dog
+image 7894: a man in a black shirt and a hat is holding a drink
+image 7895: a man in a blue shirt is jumping into a swimming pool
+image 7896: two white dogs are looking at each other in the distance
+image 7897: a surfer rides a wave
+image 7898: a man in a red jacket is sitting on a bench
+image 7899: a boy in a blue shirt and jeans is jumping on a skateboard
+evaluating validation preformance... 899/1000 (2.650012)
+image 7900: two dogs are playing in the snow
+image 7901: a group of people are standing in front of a crowd
+image 7902: a man is riding a bike on a ramp
+image 7903: a man is doing a trick on a skateboard
+image 7904: a boy in a blue shirt is running in a field
+image 7905: a race car is driving through the mud
+image 7906: a boy in a blue shirt is playing a guitar
+image 7907: two people are sitting on a bench in a park
+image 7908: a young girl in a pink shirt is holding a camera
+image 7909: a man in a blue shirt is jumping on a rock
+evaluating validation preformance... 909/1000 (3.121656)
+image 7910: a dog is running through the snow
+image 7911: a group of people are standing in a canoe in the water
+image 7912: a football player in a red jersey is being tackled by a player in the
+image 7913: a boy in a blue shirt is jumping in the air
+image 7914: two people are riding horses on a beach
+image 7915: a man in a black shirt is standing in front of a crowd
+image 7916: a man in a blue shirt is standing in front of a white building
+image 7917: a little girl in a pink dress is standing on a tree stump
+image 7918: two girls are sitting on a trampoline
+image 7919: a woman in a blue shirt is standing in the water
+evaluating validation preformance... 919/1000 (3.057161)
+image 7920: a young boy in a blue shirt is jumping into the air
+image 7921: two dogs are playing in the grass
+image 7922: a man in a blue shirt is playing a guitar
+image 7923: a man in a red jacket and a helmet
+image 7924: a woman in a blue shirt is standing in a field of a field
+image 7925: a little girl in a pink shirt is standing on a trampoline
+image 7926: a man and a woman are sitting in front of a bus
+image 7927: a brown and white dog is running on the beach
+image 7928: a man in a blue shirt is standing on a wooden bench
+image 7929: a woman in a white dress is sitting on a bench
+evaluating validation preformance... 929/1000 (2.580351)
+image 7930: a man is climbing up a rock
+image 7931: a brown dog is swimming in the water
+image 7932: a group of people are standing in front of a building
+image 7933: a young boy wearing a blue shirt and blue goggles
+image 7934: a man in a black jacket is standing in front of a white truck
+image 7935: a man and a woman are sitting on a bench
+image 7936: a dog is running through the grass
+image 7937: two dogs are playing with a ball
+image 7938: a boy in a swimming pool
+image 7939: a dog is standing in the water
+evaluating validation preformance... 939/1000 (2.467339)
+image 7940: a group of people sit on a bench in a room
+image 7941: a boy is jumping over a pole
+image 7942: a boy in a blue shirt is playing in a pool
+image 7943: two dogs are running through a field
+image 7944: a man in a wetsuit is surfing
+image 7945: a group of people are sitting on a bench
+image 7946: a man is doing a trick on a skateboard
+image 7947: a group of people are in a canoe on a lake
+image 7948: a child in a red jacket is standing in the snow
+image 7949: a man is doing a trick on a ramp
+evaluating validation preformance... 949/1000 (2.853342)
+image 7950: a woman in a bikini is standing on a rock overlooking the ocean
+image 7951: a man in a black shirt is sitting on a bench
+image 7952: a boy in a swimming pool
+image 7953: a white and white dog is running on the beach
+image 7954: a dog runs through the grass
+image 7955: a man in a white shirt and black pants is standing in front of a crowd
+image 7956: a dog is standing on a bench in the woods
+image 7957: a group of people are standing in front of a lake
+image 7958: a dog and a white dog are playing in the grass
+image 7959: a woman and a woman are walking down a street
+evaluating validation preformance... 959/1000 (2.328691)
+image 7960: a woman in a blue shirt is sitting on a bench in a park
+image 7961: a person on a bike is jumping over a hill
+image 7962: two people are walking in the sand
+image 7963: a girl in a pink shirt is climbing a rock wall
+image 7964: a white dog is running through the grass
+image 7965: two dogs are playing in the grass
+image 7966: a dog is running on the beach
+image 7967: a boy is jumping off of a skateboard
+image 7968: a little girl in a bathing suit is standing in the water
+image 7969: a man in a blue shirt is climbing up a rock
+evaluating validation preformance... 969/1000 (2.373970)
+image 7970: a dog jumps over a hurdle
+image 7971: a man in a red jacket is snowboarding
+image 7972: a group of people are racing around a track
+image 7973: a man in a black shirt and a white shirt is holding a drink
+image 7974: a little girl in a pink shirt is sitting on a bed
+image 7975: a skateboarder does a trick on a ramp
+image 7976: a surfer is riding a wave
+image 7977: a group of young girls are posing for a picture
+image 7978: a group of people are rowing in a raft on the beach
+image 7979: a group of young girls are posing for a picture
+evaluating validation preformance... 979/1000 (3.017503)
+image 7980: a little boy is playing with a toy
+image 7981: a man in a red and white helmet is riding a dirt bike
+image 7982: a young boy wearing a blue shirt and blue shorts is running on the street
+image 7983: two people are sitting on a dock in the water
+image 7984: a man in a white shirt is playing with a black dog
+image 7985: a man in a black jacket and a black jacket is standing in front of a
+image 7986: a football player in a white jersey is running on the field
+image 7987: a man and a woman are walking through a field
+image 7988: a dog is playing in the snow
+image 7989: a man in a wetsuit is surfing
+evaluating validation preformance... 989/1000 (2.478800)
+image 7990: a group of people in red and white uniforms
+image 7991: two dogs run through the snow
+image 7992: a skateboarder in the air
+image 7993: a man in a blue shirt is playing with a soccer ball
+image 7994: two dogs are playing in a field
+image 7995: a young girl in a pink shirt is standing in front of a white building
+image 7996: two children are playing in the water
+image 7997: a basketball player in a white uniform is running
+image 7998: a man in a red shirt is holding a camera
+image 7999: a black dog is playing with a ball
+evaluating validation preformance... -1/1000 (2.796287)
+loading annotations into memory...
+0:00:00.138974
+creating index...
+{u'file_name': u'2513260012_03d33305cf.jpg', u'id': 0}
+index created!
+using 1000/1000 predictions
+Loading and preparing results...     
+DONE (t=0.02s)
+creating index...
+{u'file_name': u'3385593926_d3e9c21170.jpg', u'id': 7000}
+index created!
+tokenization...
+setting up scorers...
+computing Bleu score...
+{'reflen': 9908, 'guess': [10080, 9080, 8080, 7080], 'testlen': 10080, 'correct': [6187, 2780, 1176, 496]}
+ratio: 1.01735970933
+Bleu_1: 0.614
+Bleu_2: 0.434
+Bleu_3: 0.301
+Bleu_4: 0.209
+computing METEOR score...
+METEOR: 0.199
+computing Rouge score...
+ROUGE_L: 0.462
+computing CIDEr score...
+CIDEr: 0.491
+computing SPICE score...
+SPICE evaluation took: 1.781 s
+SPICE: 0.136
+loss:  2.70676053974
+{'CIDEr': '0.49139042909402453', 'Bleu_4': 0.20922121882727512, 'Bleu_3': 0.3012947036420622, 'Bleu_2': 0.4335001635417736, 'Bleu_1': 0.6137896825396216, 'ROUGE_L': '0.4623895416714298', 'METEOR': 0.19947851263368724, 'SPICE': '0.13586190995383113'}
+Terminating BlobFetcher

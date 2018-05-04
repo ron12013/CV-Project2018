@@ -1,0 +1,1 @@
+python scripts/prepro_feats.py --input_json data/dataset_flickr8k.json --output_dir data/flickr8k --images_root $IMAGE_ROOT

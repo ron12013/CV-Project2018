@@ -2,9 +2,6 @@
 *.hdf5
 Flicker8k_Dataset/
 Flickr8k_text/
-Models/
-encoded_images.p
-predicted_captions.txt
 *.h5
 *~
 #*
